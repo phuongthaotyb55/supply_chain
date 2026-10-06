@@ -1,0 +1,18 @@
+# Credentials - never commit these
+kaggle.json
+*.env
+
+# Raw data - large files don't belong in git; the README explains how to regenerate/download
+*.csv
+*.zip
+data/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# OS
+.DS_Store
